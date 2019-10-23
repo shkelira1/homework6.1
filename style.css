@@ -1,0 +1,64 @@
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 67px;
+    width: 67px;
+    border: 2px solid #1275b9;
+    border-radius: 50%;
+    
+}
+.circle-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 67px;
+    width: 67px;
+    border: 2px solid #1275b9;
+    border-radius: 50%;
+    background: #1275b9;
+}
+.circle-inner:hover{
+    background-color: #ffffff;
+}
+.circle-inner:hover .fas{
+   color: #2a69a6;     
+}
+.circle:hover .fa{
+    color: #2a69a6;
+}
+.fa{
+    font-size: 30px;
+    color: #1275b9;
+}
+.fas{
+    font-size: 30px;
+    color: #ffffff;
+}
+.main-title{
+    font: 600 14px 'Montserrat', sans-serif;
+    line-height: 24px;
+}
+.text{
+    
+    line-height: 20px;
+    font: 300 14px 'Montserrat', sans-serif;
+    color: #9d9d9d;
+    text-align: center;
+}
+.main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.main-list{
+   width: 18%;
+   margin-right: 100px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.main-list:last-child{
+    margin-right: 0;
+}
